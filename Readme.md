@@ -1,19 +1,19 @@
-#Project requirements 
+# Project requirements 
 
 	- JDK 14
 	- maven installed 
 	- Docker installed 
 
 
-##For development  build
+## For development  build
 
 	- mvn clean install
 
-##For  building docker image 
+## For  building docker image 
 
 	- mvn clean install -Pdocker -DskipTests
 	
-##To test if image is there
+## To test if image is there
 
 	 - docker image list
 	 

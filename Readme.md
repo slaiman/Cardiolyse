@@ -28,3 +28,9 @@
 ## To check the container logs 
 	
 	- docker exec -it Container_ID /bin/bash
+	
+## How to use the API
+
+    -using Get method in postman :
+        http://localhost:8080/cardiolyse/reverse/?input=Kristina	
+    - input can be assigned any value
